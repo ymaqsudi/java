@@ -4,33 +4,36 @@ package fizzBuzz;
 // If number is a multiple of 5, print buzz
 // If number is a multiple of 3 and 5, print fizzbuzz
 
-public class fizzBuzz {
-	
-	
-
-	public static void main(String[] args) {
-		int n = 100;
-		
-		for (int i=1; i<=n; i++) {
-			if (i <= 100) {
-			
-			
-				
-				if (i % 3 == 0 && i % 5 != 0) {
-					System.out.println("fizz");
-				} else if (i % 3 != 0 && i % 5 == 0) {
-					System.out.println("buzz ");
-				} else if (i % 3 == 0 && i % 5 == 0) {
-					System.out.println("fizzbuzz");
-				} else {
-					System.out.print(i);
-				}
-			}
-		
-		
-		}
-		}
-	}
+class fizzBuzz 
+{ 
+    public static void main(String args[]) 
+    {  
+        int n = 100; 
+  
+        // loop for 100 times 
+        for (int i=1; i<=n; i++)                                  
+        { 
+            if (i%15==0)                                                  
+                System.out.println("FizzBuzz"+" ");  
+            // number divisible by 5, print 'Buzz'  
+            // in place of the number 
+            else if (i%5==0)      
+                System.out.println("Buzz"+" ");  
+  
+            // number divisible by 3, print 'Fizz'  
+            // in place of the number 
+            else if (i%3==0)      
+                System.out.println("Fizz"+" ");  
+  
+            // number divisible by 15(divisible by 
+            // both 3 & 5), print 'FizzBuzz' in  
+            // place of the number 
+                  
+            else // print the numbers 
+                System.out.println(i+" ");                          
+        } 
+    } 
+} 
 
 //hi
 

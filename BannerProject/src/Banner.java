@@ -4,6 +4,7 @@ public class Banner {
 	Scanner scanner;
 	
 	// hello robots
+	// hi
 	
 
 	public void a() {

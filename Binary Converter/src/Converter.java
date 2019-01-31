@@ -7,8 +7,8 @@ public class Converter {
 		// Print the remainders of the numbers backwards (Starting from 1)
 		
 		// Assigning X to equal any number and creating an array with 1000 units
-		int x = 10;
-		int binaryNum[] = new int[10];
+		int x = 28;
+		int binaryNum[] = new int[10000];
 		
 		
 		// Getting the remainder for each number
